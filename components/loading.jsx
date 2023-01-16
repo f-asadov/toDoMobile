@@ -4,8 +4,8 @@ import {View, ActivityIndicator, StyleSheet, Image} from 'react-native';
 const LoadingScreen = () => {
   return (
     <View style={styles.container}>
-      <Image source={require('../images/azalia.png')} style={styles.logoImage} />
-      <ActivityIndicator size={50} color="#FF003C" />
+      <Image source={require('../images/nkf.png')} style={styles.logoImage} />
+      <ActivityIndicator size={50} color="#222F3E" />
     </View>
   );
 };

@@ -9,10 +9,10 @@ import TodoList from './components/todoList';
 const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
-  const DispleyLogo = () => setIsLoading(prev => !prev);
+  const DisplayLogo = () => setIsLoading(prev => !prev);
 
   React.useEffect(() => {
-    setTimeout(DispleyLogo, 3000);
+    setTimeout(DisplayLogo, 3000);
   }, []);
 
   return (
@@ -26,5 +26,6 @@ const styles = StyleSheet.create({
   container:{
     flex:1
   }
+    
 });
 export default App;
